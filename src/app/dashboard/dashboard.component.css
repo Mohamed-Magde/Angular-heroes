@@ -51,11 +51,12 @@ h4 {
 .module:hover {
   background-color: #eee;
   cursor: pointer;
-  color: #607d8b;
+  color: #607d8b !important;
 }
 
 .grid-pad {
   padding: 10px 0;
+
 }
 
 .grid-pad>[class*='col-']:last-of-type {
